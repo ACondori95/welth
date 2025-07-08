@@ -50,7 +50,7 @@ export async function createAccount(data) {
         ...data,
         balance: balanceFloat,
         userId: user.id,
-        idDefault: shouldBeDefault,
+        isDefault: shouldBeDefault,
       },
     });
 
